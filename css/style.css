@@ -285,7 +285,6 @@
 .modal__dialog {
   width: 95%;
   max-width: 780px;
-  height: 552px;
   background: #ffffff;
   border-radius: 5px;
   margin: auto;
@@ -446,7 +445,6 @@
 
   .modal__dialog {
     max-width: 600px;
-    height: 520px;
     padding: 30px 35px;
   }
   .modal__dash {
@@ -524,7 +522,6 @@
 
   .modal__dialog {
     max-width: 500px;
-    min-height: 520px;
     padding: 30px 35px;
   }
 }
@@ -697,27 +694,42 @@
   }
 
   .modal__dialog {
-    max-width: 350px;
-    height: 600px;
+    max-width: 320px;
+
+    padding: 15px;
   }
   .modal__dash {
     font-size: 20px;
   }
+  .modal__heading {
+    margin-bottom: 20px;
+  }
+  .modal__rows {
+    margin-bottom: 20px;
+  }
   .modal__row {
     flex-wrap: wrap;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
   }
   .modal__dish-name {
     flex-basis: 100%;
+    line-height: 20px;
     margin-bottom: 5px;
   }
   .modal__dish-name,
   .modal__price,
   .modal__counter-number {
-    font-size: 18px;
+    font-size: 16px;
   }
   .modal__summary,
   .modal__accept,
   .modal__decline {
-    font-size: 16px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .modal__accept {
+    margin-right: 1px;
+    margin-left: 1px;
   }
 }

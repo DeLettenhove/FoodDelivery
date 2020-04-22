@@ -722,6 +722,9 @@
   .modal__counter-number {
     font-size: 16px;
   }
+  .modal__price {
+    margin-left: 0;
+  }
   .modal__summary,
   .modal__accept,
   .modal__decline {

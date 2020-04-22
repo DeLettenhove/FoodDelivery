@@ -749,7 +749,10 @@
     font-size: 12px;
   }
   .modal__accept {
-    margin-right: 1px;
-    margin-left: 1px;
+    margin-right: 5px;
+    margin-left: auto;
+  }
+  .span__text {
+    display: none;
   }
 }

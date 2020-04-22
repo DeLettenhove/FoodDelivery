@@ -277,6 +277,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
   display: none;
+  font-style: "Roboto", sans-serif;
 }
 .is-open {
   display: flex;
@@ -442,6 +443,30 @@
   .info-row__title {
     font-size: 30px;
   }
+
+  .modal__dialog {
+    max-width: 600px;
+    height: 520px;
+    padding: 30px 35px;
+  }
+  .modal__dash {
+    font-size: 28px;
+  }
+  .modal__dish-name,
+  .modal__price,
+  .modal__counter-number {
+    font-size: 18px;
+  }
+  .modal__summary,
+  .modal__accept,
+  .modal__decline {
+    font-size: 16px;
+  }
+  .modal__counter {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -495,6 +520,12 @@
   }
   .nav__link {
     font-size: 14px;
+  }
+
+  .modal__dialog {
+    max-width: 500px;
+    min-height: 520px;
+    padding: 30px 35px;
   }
 }
 @media (max-width: 578px) {
@@ -552,6 +583,23 @@
   }
   .nav__link:not(:last-child) {
     margin-right: 0;
+  }
+
+  .modal__dialog {
+    max-width: 450px;
+  }
+  .modal__dash {
+    font-size: 20px;
+  }
+  .modal__dish-name,
+  .modal__price,
+  .modal__counter-number {
+    font-size: 14px;
+  }
+  .modal__summary,
+  .modal__accept,
+  .modal__decline {
+    font-size: 13px;
   }
 }
 @media (max-width: 480px) {
@@ -646,5 +694,30 @@
   }
   .social {
     order: 5;
+  }
+
+  .modal__dialog {
+    max-width: 350px;
+    height: 600px;
+  }
+  .modal__dash {
+    font-size: 20px;
+  }
+  .modal__row {
+    flex-wrap: wrap;
+  }
+  .modal__dish-name {
+    flex-basis: 100%;
+    margin-bottom: 5px;
+  }
+  .modal__dish-name,
+  .modal__price,
+  .modal__counter-number {
+    font-size: 18px;
+  }
+  .modal__summary,
+  .modal__accept,
+  .modal__decline {
+    font-size: 16px;
   }
 }

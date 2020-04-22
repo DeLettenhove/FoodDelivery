@@ -155,7 +155,6 @@
   margin-left: 24px;
 }
 .card__dish-title {
-  min-height: 170px;
   margin-left: 24px;
   margin-right: 23px;
 }
@@ -169,6 +168,7 @@
 .card__dish-name {
   flex-basis: 100%;
   margin-bottom: 10px;
+  min-height: 70px;
 }
 .card__time {
   min-width: 65px;
@@ -188,6 +188,7 @@
   color: #8c8c8c;
   min-width: 237px;
   margin-bottom: 25px;
+  min-height: 100px;
 }
 .card__info {
   display: flex;
